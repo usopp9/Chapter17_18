@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kr.or.dgit.it.chapter17_18">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +20,13 @@
         </activity>
         <activity android:name=".FragmentLifeCycleActivity" />
         <activity android:name=".FragmentReuseActivity" />
-        <activity android:name=".FragmentManagerActivity"></activity>
+        <activity android:name=".FragmentManagerActivity" />
+        <activity android:name=".FragmentToActivity" />
+        <activity android:name=".FragToFragActivity" />
+        <activity android:name=".ListFragmentActivity" />
+        <activity android:name=".DivideFragmentActivity" />
+        <activity android:name=".WebViewFragmentActivity" />
+        <activity android:name=".DialogFragmentActivity"></activity>
     </application>
 
 </manifest>
